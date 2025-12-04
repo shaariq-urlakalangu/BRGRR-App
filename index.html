@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRGRR Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form id="loginForm">
+  <input type="text" id="username" placeholder="Enter your name">
+  <button type="submit">Login</button>
+  </form>
+  <p id="welcomeMessage"></p>
+
+  <h2>Your Order History</h2>
+<ul id="orderHistory"></ul>
+
+  <h1> Build Your BRGRR</h1>
+
+  <!-- Toppings will go here -->
+  <div id="toppings"></div>
+
+  <h2>Your Burger</h2>
+  <ul id="burger-list">
+    
+  </ul>
+
+  <h3>Total Price: ₹<span id="price">0</span></h3>
+
+  <!-- Save button -->
+  <button id="save-btn">Save Combo</button>
+
+  <!-- Recommendations section -->
+  <h2>Recommended for You</h2>
+  <div id="recommendations"></div>
+
+  <form id="burger-form">
+  <label for="bun">Choose a Bun:</label>
+  <select id="bun" required>
+    <option value="">--Select Bun--</option>
+    <option value="plain">Plain</option>
+    <option value="sesame">Sesame</option>
+    <option value="gluten-free">Gluten-Free</option>
+  </select>
+
+  <button type="submit">Build My Burger</button>
+</form>
+
+<p id="form-feedback" class="feedback"></p>
+
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

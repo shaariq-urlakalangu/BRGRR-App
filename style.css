@@ -1,0 +1,17 @@
+/* style.css (basic starter) */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
